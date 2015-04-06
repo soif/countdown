@@ -111,6 +111,20 @@ Just a text template, you can customize it, e.g., "%d D / %h H / %m M / %s S" or
 
 Set it to `true` to pad numbers with a leading 0, e.g., "10 H / 9 M / 5 S" becomes "10 H / 09 M / 05 S"
 
+#### sync
+
+* type: boolean
+* default: false
+
+Ensure we start synced with the computer time. Usefull if you want to use in conjonction with a clock display
+
+#### resync
+
+* type: int
+* default: 0
+
+Period (in minutes) to resync the countdown with the computer time. Without setting it, a long countdown time will drift from the real time.
+
 
 ## Methods
 
